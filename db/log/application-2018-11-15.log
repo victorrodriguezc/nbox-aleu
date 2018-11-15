@@ -1,0 +1,58 @@
+2018-11-15T16:14:49.994Z info: Se va a realizar un select a la tabla tb_usuario y tb_roles
+2018-11-15T16:14:50.016Z info: Se realizo correctamente el query
+2018-11-15T16:14:50.017Z info: Se realizara una actualizacion en la tabla tb_usuario con la siguiente data: [object Object]
+2018-11-15T16:14:50.022Z info: Se actualizo correctamente el query: UPDATE tb_usuario set token = '0d86bd89-9ca3-4e65-8c29-466f9d167968' where id_usuario = 1
+2018-11-15T16:14:50.550Z info: Se va a realizar un select a la tabla tb_usuario
+2018-11-15T16:14:50.552Z info: Se realizo correctamente el query
+2018-11-15T16:14:50.553Z info: Se va a realizar un select a toda la tabla tb_datos_personales
+2018-11-15T16:14:50.559Z info: Se realizo correctamente el query
+2018-11-15T16:14:54.254Z info: Se va a realizar un select a la tabla tb_usuario
+2018-11-15T16:14:54.256Z info: Se realizo correctamente el query
+2018-11-15T16:14:54.256Z info: Se va a realizar un select a toda la tabla tb_datos_personales
+2018-11-15T16:14:54.259Z info: Se realizo correctamente el query
+2018-11-15T16:15:05.359Z info: Se va a realizar un select a la tabla tb_usuario
+2018-11-15T16:15:05.361Z info: Se realizo correctamente el query
+2018-11-15T16:15:05.361Z info: Se va a realizar un select a toda la tabla tb_datos_personales
+2018-11-15T16:15:05.363Z info: Se realizo correctamente el query
+2018-11-15T16:46:13.333Z info: Se va a realizar un select a la tabla tb_usuario y tb_roles
+2018-11-15T16:46:13.335Z info: Se realizo correctamente el query
+2018-11-15T16:46:13.335Z info: Se realizara una actualizacion en la tabla tb_usuario con la siguiente data: [object Object]
+2018-11-15T16:46:13.338Z info: Se actualizo correctamente el query: UPDATE tb_usuario set token = '180dcf43-de7e-43d1-a0e6-695de8625eed' where id_usuario = 2
+2018-11-15T16:46:14.734Z info: Se va a realizar un select a la tabla tb_usuario
+2018-11-15T16:46:14.735Z info: Se realizo correctamente el query
+2018-11-15T16:46:14.735Z info: Se va a realizar un select a toda la tabla tb_datos_personales
+2018-11-15T16:46:14.737Z info: Se realizo correctamente el query
+2018-11-15T16:47:20.067Z info: Se va a realizar un select a la tabla tb_usuario
+2018-11-15T16:47:20.069Z info: Se realizo correctamente el query
+2018-11-15T16:47:20.069Z info: Se va a realizar un select a toda la tabla tb_datos_personales
+2018-11-15T16:47:20.072Z info: Se realizo correctamente el query
+2018-11-15T16:49:47.080Z info: Se va a realizar un select a la tabla tb_usuario
+2018-11-15T16:49:47.082Z info: Se realizo correctamente el query
+2018-11-15T16:49:47.082Z info: Se va a realizar un select a toda la tabla tb_datos_personales
+2018-11-15T16:49:47.085Z info: Se realizo correctamente el query
+2018-11-15T16:49:50.348Z info: Se va a realizar un select a la tabla tb_usuario
+2018-11-15T16:49:50.350Z info: Se realizo correctamente el query
+2018-11-15T16:49:50.350Z info: Se va a realizar un select a toda la tabla tb_datos_personales
+2018-11-15T16:49:50.359Z info: Se realizo correctamente el query
+2018-11-15T16:51:09.822Z info: Se va a realizar un select a la tabla tb_usuario
+2018-11-15T16:51:09.825Z info: Se realizo correctamente el query
+2018-11-15T16:51:09.825Z info: Se va a realizar un select a toda la tabla tb_datos_personales
+2018-11-15T16:51:09.827Z info: Se realizo correctamente el query
+2018-11-15T16:51:44.170Z info: Se va a realizar un select a la tabla tb_usuario
+2018-11-15T16:51:44.172Z info: Se realizo correctamente el query
+2018-11-15T16:51:44.172Z info: Se va a realizar un select a toda la tabla tb_datos_personales
+2018-11-15T16:51:44.174Z info: Se realizo correctamente el query
+2018-11-15T17:27:40.778Z info: Se va a realizar un select a la tabla tb_usuario
+2018-11-15T17:27:40.780Z info: Se realizo correctamente el query
+2018-11-15T17:27:49.280Z info: Se va a realizar un select a la tabla tb_usuario y tb_roles
+2018-11-15T17:27:49.282Z info: Se realizo correctamente el query
+2018-11-15T17:27:49.282Z info: Se realizara una actualizacion en la tabla tb_usuario con la siguiente data: [object Object]
+2018-11-15T17:27:49.286Z info: Se actualizo correctamente el query: UPDATE tb_usuario set token = '49dc37cc-afe1-41e2-be6e-0976f6167b9c' where id_usuario = 1
+2018-11-15T17:27:50.340Z info: Se va a realizar un select a la tabla tb_usuario
+2018-11-15T17:27:50.341Z info: Se realizo correctamente el query
+2018-11-15T17:27:50.342Z info: Se va a realizar un select a toda la tabla tb_datos_personales
+2018-11-15T17:27:50.345Z info: Se realizo correctamente el query
+2018-11-15T17:27:52.487Z info: Se va a realizar un select a la tabla tb_usuario
+2018-11-15T17:27:52.488Z info: Se realizo correctamente el query
+2018-11-15T17:27:52.489Z info: Se realizara una actualizacion en la tabla tb_usuario con la siguiente data: [object Object]
+2018-11-15T17:27:52.492Z info: Se actualizo correctamente el query: UPDATE tb_usuario set token = '' where id_usuario = 1

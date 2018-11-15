@@ -1,0 +1,37 @@
+Example app listening at http://:::8084
+Example app listening at http://:::8084
+Example app listening at http://:::8084
+Informacion ID postulante: 362
+No se envío información de conyuge
+[]
+UPDATE tb_datos_personales set hash = 'USED' where id_postulante = 362
+Connected!
+Connected!
+Connected!
+Connected!
+Connected!
+Connected!
+Informacion resultante de la insercion de domicilio:  OK
+Informacion resultante de la insercion de dependiente:  ERROR
+Informacion resultante de la insercion de ocupacion negocio:  OK
+Informacion resultante de la insercion de partners:  OK
+Informacion resultante de la insercion de partners:  OK
+Informacion resultante de la actualizacion de datos personales  OK
+Example app listening at http://:::8084
+Informacion ID postulante: 405
+No se envío información de conyuge
+[]
+UPDATE tb_datos_personales set hash = 'USED' where id_postulante = 405
+Connected!
+Connected!
+Connected!
+Connected!
+Connected!
+Connected!
+Informacion resultante de la actualizacion de datos personales  OK
+Informacion resultante de la insercion de domicilio:  OK
+Informacion resultante de la insercion de dependiente:  ERROR
+Informacion resultante de la insercion de ocupacion estudiante:  OK
+Informacion resultante de la insercion de partners:  OK
+Informacion resultante de la insercion de partners:  OK
+Example app listening at http://:::8084

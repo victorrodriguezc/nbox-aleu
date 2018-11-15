@@ -1,0 +1,10 @@
+2018-10-03T14:26:36.289Z info: Se realizara la insercion en la tabla tb_datos_personales con la siguiente data: 44991085
+2018-10-03T14:26:36.321Z info: Se inserto correctamente el query: INSERT INTO tb_datos_personales (dni, hash) VALUES (?, ?)
+2018-10-03T14:28:34.353Z info: Se realizara la insercion en la tabla tb_datos_personales con la siguiente data: 44991085
+2018-10-03T14:28:34.372Z info: Se inserto correctamente el query: INSERT INTO tb_datos_personales (dni, hash) VALUES (?, ?)
+2018-10-04T02:31:29.930Z info: Se realizara la insercion en la tabla tb_datos_personales con la siguiente data: 44991085
+2018-10-04T02:31:29.942Z error: Ocurrio el siguiente error: ER_DUP_ENTRY: Duplicate entry '44991085' for key 'dni_postulante'
+2018-10-04T02:31:31.538Z info: Se realizara la insercion en la tabla tb_datos_personales con la siguiente data: 44991085
+2018-10-04T02:31:31.541Z error: Ocurrio el siguiente error: ER_DUP_ENTRY: Duplicate entry '44991085' for key 'dni_postulante'
+2018-10-04T02:31:36.366Z info: Se realizara la insercion en la tabla tb_datos_personales con la siguiente data: 44991086
+2018-10-04T02:31:36.370Z info: Se inserto correctamente el query: INSERT INTO tb_datos_personales (dni, hash) VALUES (?, ?)

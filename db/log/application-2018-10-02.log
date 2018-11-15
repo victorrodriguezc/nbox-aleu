@@ -1,0 +1,10 @@
+2018-10-02T05:23:53.145Z info: Se realizara la insercion en la tabla tb_datos_personales con la siguiente data: [object Object]
+2018-10-02T05:23:53.165Z info: Se inserto correctamente el query: INSERT INTO tb_datos_personales (dni, hash) VALUES (?, md5(?))
+2018-10-02T05:35:47.031Z info: Se realizara la insercion en la tabla tb_datos_personales con la siguiente data: [object Object]
+2018-10-02T05:35:47.050Z info: Se inserto correctamente el query: INSERT INTO tb_datos_personales (dni, hash) VALUES (?, md5(?))
+2018-10-03T03:33:47.555Z info: Se realizara la insercion en la tabla tb_datos_personales con la siguiente data: 44784345
+2018-10-03T03:33:47.570Z info: Se inserto correctamente el query: INSERT INTO tb_datos_personales (dni, hash) VALUES (?, ?)
+2018-10-03T03:43:56.083Z info: Se realizara la insercion en la tabla tb_datos_personales con la siguiente data: 44784346
+2018-10-03T03:43:56.098Z info: Se inserto correctamente el query: INSERT INTO tb_datos_personales (dni, hash) VALUES (?, ?)
+2018-10-03T03:46:53.555Z info: Se realizara la insercion en la tabla tb_datos_personales con la siguiente data: 44784346
+2018-10-03T03:46:53.572Z info: Se inserto correctamente el query: INSERT INTO tb_datos_personales (dni, hash) VALUES (?, ?)

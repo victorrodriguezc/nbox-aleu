@@ -1,0 +1,74 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "/home/ec2-user/aelucoopbackend/db/log/.audit.json",
+    "files": [
+        {
+            "date": 1541136688380,
+            "name": "/home/ec2-user/aelucoopbackend/db/log/application-2018-11-02.log",
+            "hash": "68a5955471d4bab1cdd3f74157989af8"
+        },
+        {
+            "date": 1541232116601,
+            "name": "/home/ec2-user/aelucoopbackend/db/log/application-2018-11-03.log",
+            "hash": "bbdf9ddd45d8e9702adf9730db4912d8"
+        },
+        {
+            "date": 1541359380380,
+            "name": "/home/ec2-user/aelucoopbackend/db/log/application-2018-11-04.log",
+            "hash": "a7b6782607d98a69e941f4ab70ba9883"
+        },
+        {
+            "date": 1541396940035,
+            "name": "/home/ec2-user/aelucoopbackend/db/log/application-2018-11-05.log",
+            "hash": "917b6a1981a6e4a5ef2914390441fc79"
+        },
+        {
+            "date": 1541632809520,
+            "name": "/home/ec2-user/aelucoopbackend/db/log/application-2018-11-07.log",
+            "hash": "98417b35b023cefb1e327f4b0c350b24"
+        },
+        {
+            "date": 1541690806325,
+            "name": "/home/ec2-user/aelucoopbackend/db/log/application-2018-11-08.log",
+            "hash": "a4b38a60249c5e0aded6d9c938ebc1ba"
+        },
+        {
+            "date": 1541780486153,
+            "name": "/home/ec2-user/aelucoopbackend/db/log/application-2018-11-09.log",
+            "hash": "79b2beda16dc34d22e764e44365a7286"
+        },
+        {
+            "date": 1541869533621,
+            "name": "/home/ec2-user/aelucoopbackend/db/log/application-2018-11-10.log",
+            "hash": "1fc7716a3e63e05d2c56ea9d477b17e4"
+        },
+        {
+            "date": 1541912459165,
+            "name": "/home/ec2-user/aelucoopbackend/db/log/application-2018-11-11.log",
+            "hash": "b2e767360fddcbd9c972dac95bb25933"
+        },
+        {
+            "date": 1542032763577,
+            "name": "/home/ec2-user/aelucoopbackend/db/log/application-2018-11-12.log",
+            "hash": "7225db92bfaf63310601f25889ef05de"
+        },
+        {
+            "date": 1542122993377,
+            "name": "/home/ec2-user/aelucoopbackend/db/log/application-2018-11-13.log",
+            "hash": "8074310ee555738e54309ee093d6dfa3"
+        },
+        {
+            "date": 1542213674500,
+            "name": "/home/ec2-user/aelucoopbackend/db/log/application-2018-11-14.log",
+            "hash": "0729dcaa53b093cacbd5784b8c6b22c9"
+        },
+        {
+            "date": 1542298489995,
+            "name": "/home/ec2-user/aelucoopbackend/db/log/application-2018-11-15.log",
+            "hash": "bb68ef346b6b836b3475b48405213a59"
+        }
+    ]
+}

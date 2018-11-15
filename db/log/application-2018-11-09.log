@@ -1,0 +1,22 @@
+2018-11-09T16:21:26.152Z info: Se va a realizar un select a la tabla tb_usuario
+2018-11-09T16:21:26.930Z info: Se realizo correctamente el query
+2018-11-09T22:36:13.340Z info: Se realizara una actualizacion en la tabla tb_ocupacion_negocio con la siguiente data: [object Object]
+2018-11-09T22:36:13.463Z info: Se realizara una actualizacion en la tabla tb_ocupacion_dependiente con la siguiente data: [object Object]
+2018-11-09T22:36:13.831Z info: Se actualizo correctamente el query: UPDATE tb_ocupacion_negocio set where id_postulante = undefined and id_ocup_negocio = 5
+2018-11-09T22:37:09.786Z info: Se realizara una actualizacion en la tabla tb_ocupacion_negocio con la siguiente data: [object Object]
+2018-11-09T22:37:10.074Z info: Se realizara una actualizacion en la tabla tb_ocupacion_dependiente con la siguiente data: [object Object]
+2018-11-09T22:37:10.356Z info: Se actualizo correctamente el query: UPDATE tb_ocupacion_negocio set where id_postulante = undefined and id_ocup_negocio = 5
+2018-11-09T22:39:19.430Z info: Se realizara una actualizacion en la tabla tb_ocupacion_negocio con la siguiente data: [object Object]
+2018-11-09T22:39:19.672Z info: Se realizara una actualizacion en la tabla tb_ocupacion_dependiente con la siguiente data: [object Object]
+2018-11-09T22:39:20.003Z info: Se actualizo correctamente el query: UPDATE tb_ocupacion_dependiente set where id_postulante = 234 and id_ocup_dependiente = 4
+2018-11-09T22:39:20.131Z info: Se actualizo correctamente el query: UPDATE tb_ocupacion_negocio set where id_postulante = undefined and id_ocup_negocio = 5
+2018-11-09T22:49:30.882Z info: Se realizara una actualizacion en la tabla tb_ocupacion_dependiente con la siguiente data: [object Object]
+2018-11-09T22:49:31.250Z info: Se actualizo correctamente el query: UPDATE tb_ocupacion_dependiente set where id_postulante = 234 and id_ocup_dependiente = 4
+2018-11-09T22:53:18.021Z info: Se realizara una actualizacion en la tabla tb_ocupacion_dependiente con la siguiente data: [object Object]
+2018-11-09T22:53:18.389Z info: Se actualizo correctamente el query: UPDATE tb_ocupacion_dependiente set where id_postulante = 234 and id_ocup_dependiente = 4
+2018-11-09T23:00:16.325Z info: Se realizara una actualizacion en la tabla tb_ocupacion_dependiente con la siguiente data: [object Object]
+2018-11-09T23:00:16.692Z info: Se actualizo correctamente el query: UPDATE tb_ocupacion_dependiente set where id_postulante = 234 and id_ocup_dependiente = 4
+2018-11-09T23:01:08.446Z info: Se realizara una actualizacion en la tabla tb_ocupacion_dependiente con la siguiente data: [object Object]
+2018-11-09T23:01:09.060Z info: Se actualizo correctamente el query: UPDATE tb_ocupacion_dependiente set id_ocupacion = '4' ,ocupacion = 'Cajero' ,profesion = 'Contador' ,id_sector_economico = '1' ,centro_trabajo = 'BCP' ,id_actividad = '2' ,id_tiempo_servicio = '2' ,cargo = 'Cajero' ,id_sueldo_bruto = '2' where id_postulante = 234 and id_ocup_dependiente = 4
+2018-11-09T23:06:33.823Z info: Se realizara una actualizacion en la tabla tb_ocupacion_dependiente con la siguiente data: [object Object]
+2018-11-09T23:06:34.645Z info: Se actualizo correctamente el query: UPDATE tb_ocupacion_dependiente set ocupacion = 'Cajero' ,profesion = 'Contador' ,id_sector_economico = '1' ,centro_trabajo = 'BCP' ,id_actividad = '2' ,id_tiempo_servicio = '2' ,cargo = 'Cajero' ,id_sueldo_bruto = '2' where id_postulante = 234 and id_ocup_dependiente = 4

@@ -1,0 +1,311 @@
+curl -d "param1=value1&param2=value2" -H "Content-Type: application/x-www-form-urlencoded" -X POST http://localhost:3000/data
+curl -H "Content-Type: application/json" -X POST http://localhost:8084/api/v1/adduser
+
+curl -H "Content-Type: application/json" -X GET http://127.0.0.1:8084/api/v1/getdepartamento
+
+
+curl -H "Content-Type: application/json" -X POST http://127.0.0.1:3501/replicate --data '{"username":"xyz","password":"xyz"}'
+curl -H "Content-Type: application/json" -X POST http://127.0.0.1:3501/getprovincia --data '{"username":"xyz","password":"xyz"}'
+
+
+getprovincia
+nombre: string
+email:string
+telefono
+dnicandidato
+dniconyugue
+interes
+
+
+
+
+GET /catalog/v1/getdepartamento
+POST /catalog/v1/getprovincia '{"iddpto":"5"}'
+POST /catalog/v1/getdistrito '{"idprov":"12"}'
+GET /catalog/v1/getsector
+POST /catalog/v1/getactividad '{"idsector":"3"}'
+GET /catalog/v1/getsueldobruto
+GET /catalog/v1/gettiemposervicio
+GET /catalog/v1/getingresosmensuales
+
+
+formularioinicial =
+{
+   "nombre":"Jose Francisco Perez Luna",
+   "email":"joseperezluna@correo.com",
+   "telefono":"954785455",
+   "dnicandidato":"42522222",
+   "dniconyugue":"45999666",
+   "interes": {
+       "ahorros":0,
+       "creditos":1,
+       "plazofijo":"0
+   }
+}
+
+formulariofinal =
+{
+   "nombre":"Jose Francisco Perez Luna",
+   "dni":"32333234",
+   "email":"joseperezluna@correo.com",
+   "telefono":"954785455",
+   "departamentonac":"Lima",
+   "provincianac":"Yauyos",
+   "nombreMadre":"Valeria",
+   "cargopublico":false,
+   "tipovia":"Avenida",
+   "nombrevia":"Javier Prado",
+   "numerovia":"343",
+   "manzana":"",
+   "lote":"",
+   "intdpto":"401",
+   "departamento":"Lima",
+   "provincia":"Lima",
+   "distrito":"Magdalena del Mar",
+   "urbanizacion":"",
+   "telefonocasa":"2478965",
+   "tipocasa":"Alquilada",
+   "dedicacion":[ 0,2,3 ],
+   "ocupacion":"Administrador",
+   "profesion":"Economista",
+   "sectoreconomico":"Mineria",
+   "centrodetrabajo":"NboxLab SA",
+   "actividad":"Venta de articulos",
+   "tiempodeservicio":"5 años",
+   "cargo":"Vendedor",
+   "sueldobruto":"3001-7000",
+   "ruc":"10164090588",
+   "ingresosruc":"10000-20000",
+   "institucioneducativa":"TECSUP",
+   "dniconyugue":"45222555",
+   "nombreconyugue":"Graciela Mariel Guerrero Aquino",
+   "fnacimientoc":"28/07/1980",
+   "ocupacionc":"Ama de casa",
+   "profesionc":"Medico",
+   "sectoreconomicoc":"Medicina",
+   "hijos": [
+       { "nombres":"Julio Cesar", "Garcia":"","Alvarez":"","fechanac":"25/07/1998"},
+       { "nombres":"Macarena Antonia", "Garcia":"","Alvarez":"","fechanac":"18/11/2001"}
+   ],
+   "institucionpartner": 4
+}
+
+
+tb_datos_personales
+{
+"id_postulante" : "234",
+"dni" : "43444334",
+"nombres" : "Carlos Daniel",
+"apellido_paterno" : "Campos",
+"apellido_materno" : "Tabarez",
+"fecha_nacimiento" : "14/10/1981",
+"sexo" : "Masculino",
+"estado_civil" : "Casado",
+"correo_electronico" : "carlos@correo.com",
+"celular" : "978214377"
+}
+
+tb_domicilio
+{
+"id_postulante" : "234",
+"tipo_via" : "Jiron",
+"nombre_via" : "Acacias",
+"num" : "453",
+"mz" : "A",
+"lote" : "4",
+"int_dpto" : "401",
+"id_dep" : "1",
+"id_prov" : "3",
+"id_dist" : "2",
+"urbanizacion" : "El huerto",
+"telefono" : "978214377",
+"casa" : "2345674"
+}
+
+tb_ocupacion_dependiente
+{
+"id_postulante" : "234",
+"ocupacion" : "Empleado",
+"profesion" : "Contador",
+"id_sector_economico" : "1",
+"centro_trabajo" : "CONCYTEC",
+"id_actividad" : "2",
+"id_tiempo_servicio" : "2",
+"cargo" : "Empleado",
+"id_sueldo bruto" : "1",
+"direccion" : "Calle Petroleo",
+"num" : "123",
+"urbanizacion" : "Los Huachitos",
+"id_dep" : "2",
+"id_prov" : "1",
+"id_dist" : "3,
+"telefono" : "987452122"
+}
+
+tb_conyuge
+{
+"id_postulante" : "234",
+"nombres" : "Kathy Manuela",
+"apellido_paterno" : "Gutierrez",
+"apellido_materno" : "Castillo",
+"fecha_nacimiento" : "19/03/1983",
+"ocupacion" : "Empleada",
+"profesion" : "Administradora",
+"id_sector_economico" : "2"
+}
+
+tb_dependiente
+{
+"id_postulante" : "234",
+"dependientes": [
+    { "nombres":"Julio Cesar", "apellido_paterno":"Campos","apellido_materno":"Gutierrez","fechanac":"25/07/1998","parentesco":"hijo"},
+    { "nombres":"Carmen Raquel", "apellido_paterno":"Campos","apellido_materno":"Gutierrez","fechanac":"12/11/2003","parentesco":"hijo"},
+]
+}
+
+
+
+{ id_postulante: '243',
+  dependientes:
+   [ '{"nombres":"Julio Cesar","apellido_paterno":"Garcia","apellido_materno":"Alvarez","fechanac":"1998-07-25","parentesco":"hijo"}',
+     '{"nombres":"Macarena Antonia","apellido_paterno":"Garcia","apellido_materno":"Alvarez","fechanac":"2001-08-11","parentesco":"hijo"}' ] }
+
+
+tb_ocupacion_negocio
+{
+"id_postulante" : "234",
+"ruc" : "10428256892",
+"id_ingresos_mensuales" : "2"
+}
+
+tb_ocupacion_independiente
+{
+"id_postulante" : "NONE"
+"ruc" : "NONE",
+"id_ingresos_mensuales" : "NONE"
+}
+
+tb_ocupacion_estudiante
+{
+"id_postulante" : "234",
+"centro_estudio" : "PUCP"
+}
+
+tb_ocupacion_ama_casa
+{
+"id_postulante" : "NONE"
+}
+
+tb_ocupacion_jubilado_desempleado
+{
+"id_postulante" : "NONE"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{"nombre":"JOSE ALBERTO TABORDA GARCIA",
+"dni":"00000000",
+"email":"jtaborda@gmail.com",
+"telefono":"123123123",
+"departamentonac":"2",
+"provincianac":"8",
+"nombreMadre":"asdsadasd",
+"cargopublico":false,
+"tipovia":"2",
+"nombrevia":"wadasd",
+"numerovia":"2",
+"manzana":"2",
+"lote":"2",
+"intdpto":"2",
+"departamento":"2",
+"provincia":"8",
+"distrito":"86",
+"urbanizacion":"adasds",
+"telefonocasa":"213123123",
+"tipocasa":"1",
+"dedicacion":[housewife],
+"ocupacion":"",
+"profesion":"",
+"sectoreconomico":"",
+"centrodetrabajo":"",
+"actividad":"null",
+"tiempodeservicio":"",
+"cargo":"",
+"sueldobruto":"",
+"rucindependiente":"",
+"ingresosrucindependiente":"",
+"rucnegocio":"",
+"ventasrucnegocio":"",
+"institucioneducativa":"",
+"dniconyugue":"",
+"nombreconyugue":"",
+"fnacimientoc":"",
+"ocupacionc":"",
+"profesionc":"",
+"sectoreconomicoc":"1",
+"hijos": [
+     { "nombres":"Julio Cesar", "Garcia":"","Alvarez":"","fechanac":"25/07/1998"},
+     { "nombres":"Macarena Antonia", "Garcia":"","Alvarez":"","fechanac":"18/11/2001"}
+ ],
+"institucionpartner":[aelu,launion,elbosque,sb]}
+
+
+
+
+institucionpartner tendria los ids de las instituciones
+no esos textos
+dedicacion lo mismo
+
+
+curl -vX POST http://127.0.0.1:8084/frontend/v1/insertdata -d @testdata.json --header "Content-Type: application/json"
+
+curl -H "Content-Type: application/json" -X POST http://127.0.0.1:8084/frontend/v1/insertdata -d @testdata.json
+curl -H "Content-Type: application/json" -X GET http://127.0.0.1:8083/catalog/v1/getingresosmensuales
+
+
+select_tipo_via
+select_tipo_vivienda
+
+
+
+insert_postulante_institucion
+
+
+{
+"id_postulante" : "234",
+"institucion": [
+   { "id_institucion":"1"},
+   { "id_institucion":"2"},
+]
+}
+
+
+
+select_ingresos_mensuales_ind
+select_ingresos_mensuales_neg

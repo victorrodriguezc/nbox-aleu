@@ -1,0 +1,32 @@
+events.js:167
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: ENOENT: no such file or directory, open '/home/ec2-user/aelucoopbackend/db/log/application-2018-11-02.log'
+Emitted 'error' event at:
+    at lazyFs.open (internal/fs/streams.js:115:12)
+    at FSReqWrap.oncomplete (fs.js:139:20)
+events.js:167
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: ENOENT: no such file or directory, open '/home/ec2-user/aelucoopbackend/db/log/application-2018-11-04.log'
+Emitted 'error' event at:
+    at lazyFs.open (internal/fs/streams.js:115:12)
+    at FSReqWrap.oncomplete (fs.js:139:20)
+events.js:167
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: ENOENT: no such file or directory, open '/home/ec2-user/aelucoopbackend/db/log/application-2018-11-08.log'
+Emitted 'error' event at:
+    at lazyFs.open (internal/fs/streams.js:115:12)
+    at FSReqWrap.oncomplete (fs.js:139:20)
+events.js:167
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: ENOENT: no such file or directory, open '/home/ec2-user/aelucoopbackend/db/log/application-2018-11-12.log'
+Emitted 'error' event at:
+    at lazyFs.open (internal/fs/streams.js:115:12)
+    at FSReqWrap.oncomplete (fs.js:139:20)
